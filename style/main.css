@@ -2,10 +2,55 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-family:  sans-serif;
+	font-size: 12px;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	float: left;
+	background-color: #ff0000;
+	display: inline-block;
+}
+
+#container, #controls {
+	width: 640px;
+	margin: 0 auto;
+}
+
+#container {
+	height: 640px;
+	position: relative;
+	padding: 10px 0 30px;
+}
+
+#controls {
+	height: 50px;
 }
 
 h1 {
 	font-size: 3.5em;
 	text-align: center ;
 	color: #00b200;
+}
+
+.hightlight {
+	background-color: #000000;
+}
+
+#reset {
+	float: left;
+	width: 100px;
+	height: 25px;
+	padding: 0 10px; 
+	margin: 0 auto	;
+}
+
+.showGridSize {
+	text-align: center;
+	font-size: 1.5em;
 }
