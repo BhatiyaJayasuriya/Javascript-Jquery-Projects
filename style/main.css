@@ -3,12 +3,25 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family:  sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 div {
 	margin: 0;
 	padding: 0;
+}
+
+h1 {
+	font-size: 3.5em;
+	color: #00b200;
+}
+
+h1, p {
+	text-align: center;
+}
+
+p.showGridSize {
+	font-size: 1.5em;
 }
 
 .grid {
@@ -32,25 +45,15 @@ div {
 	height: 50px;
 }
 
-h1 {
-	font-size: 3.5em;
-	text-align: center ;
-	color: #00b200;
-}
-
 .hightlight {
 	background-color: #000000;
 }
 
-#reset {
-	float: left;
+button {
 	width: 100px;
 	height: 25px;
-	padding: 0 10px; 
 	margin: 0 auto	;
+	display:  block;
+	padding: 0 10px; 
 }
 
-.showGridSize {
-	text-align: center;
-	font-size: 1.5em;
-}
